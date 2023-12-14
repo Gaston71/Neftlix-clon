@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(254, 254, 254);
 }
 
 .App-link {
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  margin: 20px;
+}
+
+.movie img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #ff4500;
 }
